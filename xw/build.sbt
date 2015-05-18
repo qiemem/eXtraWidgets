@@ -7,8 +7,8 @@ scalacOptions ++= Seq(
   "-encoding", "UTF8")
 
 libraryDependencies ++= Seq(
-  "org.nlogo" % "NetLogo" % "5.1.0"
-    from "http://ccl.northwestern.edu/netlogo/5.1.0/NetLogo.jar"
+  "org.nlogo" % "NetLogo" % "5.2.0-LS1"
+    from "http://ccl.northwestern.edu/devel/5.2.0-LS1/NetLogo.jar"
 )
 
 libraryDependencies ++= Seq(
